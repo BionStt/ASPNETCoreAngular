@@ -9,6 +9,7 @@ import { AppComponent }  from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { routing, appRoutingProviders } from './app.routing';
+import { StaffService } from './shared/staff.service';
 
 import 'hammerjs';
 
@@ -21,7 +22,7 @@ import 'hammerjs';
         routing, 
         MaterialModule
     ],
-    providers: [appRoutingProviders],
+    providers: [appRoutingProviders,StaffService],
     declarations: [
         AppComponent,
         HomeComponent,
