@@ -21,10 +21,7 @@ import 'hammerjs';
         routing, 
         MaterialModule
     ],
-    providers: [
-        appRoutingProviders,
-        StaffService
-    ],
+    providers: [appRoutingProviders],
     declarations: [
         AppComponent,
         HomeComponent,
