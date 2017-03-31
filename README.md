@@ -9,3 +9,6 @@ after download:
 >npm start
 
 >dotnet run
+
+
+And do not forget to run "npm start" after modify your any typescript files
