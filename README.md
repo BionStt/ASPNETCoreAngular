@@ -1,5 +1,8 @@
 # ASPNETCoreAngular
 ASPNET Core Angular (VS2017 or csproj)
+
+For VS2015 or project.json version, please see: https://github.com/Longfld/ASPNETCoreAngular4
+
 after download:
 
 >dotnet restore
